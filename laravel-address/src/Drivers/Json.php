@@ -9,10 +9,10 @@ use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\File;
 use App\Addressimport;
-use App\Contracts\ImportDriverContract;
+use App\Contracts\Import_address_interface;
 
 
-class Json extends Addressimport implements ImportDriverContract
+class Json extends Addressimport implements Import_address_interface
 {
   
     protected $data;
