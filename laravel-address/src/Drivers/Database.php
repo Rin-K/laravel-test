@@ -4,14 +4,13 @@ namespace App\Drivers;
 
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\DB;
-use App\BaseImportProcessor;
-use App\Contracts\ImportDriverContract;
+use App\Addressimport;
+use App\Contracts\Import_address_interface;
 
 
-class Database extends BaseImportProcessor implements ImportDriverContract
+class Database extends Addressimport implements Import_address_interface
 {
-    
-	protected $query;
+    protected $query;
 	
     protected $prefix = '';
 
