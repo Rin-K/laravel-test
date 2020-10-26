@@ -3,7 +3,7 @@
 namespace App\Contracts;
 
 
-interface ImportDriverContract
+interface Import_address_interface
 {
    
     public function run($console);
