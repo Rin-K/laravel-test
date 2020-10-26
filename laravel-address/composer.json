@@ -1,0 +1,18 @@
+{
+    "name": "Rin-K/laravel-test",
+    "description": "Laravel framework",
+    "keywords": ["import", "data migration"],
+    "license": "GPL",
+    "autoload": {
+        "psr-4": {
+            "Import\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "App\\Providers\\ImportServiceProvider"
+            ]
+        }
+    }
+}
